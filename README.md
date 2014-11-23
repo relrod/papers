@@ -9,7 +9,7 @@ A Git annex repository of academic papers.
 Changes:
 - Added papers that I find interesting
 - Laid out the repository differently (trying to categorize papers into
-  subdirectories)
+  subdirectories, but this is hugely a work in progress)
 
 Using this
 ==========
