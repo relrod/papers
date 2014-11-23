@@ -1,18 +1,26 @@
 papers
 ======
 
-A Git annex repository of academic papers. The intention here is to both provide myself with backups and easy access to papers, while also collecting a repository of links so that people can *always* find the paper they are looking for.
+**This is a heavily modified fork of
+[ocharles/papers](https://github.com/ocharles/papers)**.
+
+A Git annex repository of academic papers.
+
+Changes:
+- Added papers that I find interesting
+- Laid out the repository differently (trying to categorize papers into
+  subdirectories)
 
 Using this
 ==========
 
 To use this repository you need to have Git and Git Annex installed. Then:
 
-    git clone git://github.com/ocharles/papers
+    git clone git://github.com/relrod/papers
     git annex init local-copy
     git annex get .
     
-This will download all of the papers I have. You can of course just selectively `git annex get` the papers that interest you.
+This will downloaad everything. You can of course just selectively `git annex get` the papers that interest you.
 
 To stay up to date, just run
 
